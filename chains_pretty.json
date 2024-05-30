@@ -2999,6 +2999,7 @@
   "chain": "RBN",
   "chainId": 151,
   "networkId": 151,
+  "slip44": 824,
   "rpc": [],
   "faucets": [],
   "infoURL": "https://redbelly.network",
@@ -3030,7 +3031,7 @@
   "chainId": 153,
   "networkId": 153,
   "slip44": 1,
-  "rpc": [],
+  "rpc": ["https://governors.testnet.redbelly.network"],
   "faucets": [],
   "infoURL": "https://redbelly.network",
   "nativeCurrency": {
@@ -3038,7 +3039,12 @@
     "symbol": "RBNT",
     "decimals": 18
   },
-  "status": "incubating"
+  "explorers": [{
+    "name": "Redbelly Network Testnet Explorer",
+    "url": "https://explorer.testnet.redbelly.network",
+    "standard": "none"
+  }],
+  "status": "active"
 }, {
   "name": "Redbelly Network TGE",
   "shortName": "rbn-tge",

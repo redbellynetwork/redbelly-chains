@@ -1919,7 +1919,7 @@
     "symbol": "RBNT",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://governors.testnet.redbelly.network"],
   "faucets": [],
   "infoURL": "https://redbelly.network"
 }, {
